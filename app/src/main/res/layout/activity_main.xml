@@ -18,12 +18,14 @@
         android:textSize="@dimen/text_size_title" />
 
     <Button
+        android:id="@+id/search_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/indent_md"
         android:layout_marginTop="@dimen/indent_lg"
         android:layout_weight="1"
         android:backgroundTint="@color/background"
+        android:foreground="?attr/selectableItemBackground"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:stateListAnimator="@null"
@@ -38,12 +40,14 @@
         app:iconTint="@color/on_background" />
 
     <Button
+        android:id="@+id/media_library_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/indent_md"
         android:layout_marginTop="@dimen/indent_md"
         android:layout_weight="1"
         android:backgroundTint="@color/background"
+        android:foreground="?attr/selectableItemBackground"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:stateListAnimator="@null"
@@ -58,6 +62,7 @@
         app:iconTint="@color/on_background" />
 
     <Button
+        android:id="@+id/settings_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/indent_md"
@@ -65,6 +70,7 @@
         android:layout_marginBottom="28dp"
         android:layout_weight="1"
         android:backgroundTint="@color/background"
+        android:foreground="?attr/selectableItemBackground"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:stateListAnimator="@null"
