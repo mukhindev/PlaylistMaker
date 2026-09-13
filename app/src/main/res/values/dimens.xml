@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent_sx">8dp</dimen>
+    <dimen name="indent_sm">12dp</dimen>
+    <dimen name="indent_md">16dp</dimen>
+    <dimen name="indent_lg">24dp</dimen>
+    <dimen name="radius_md">16dp</dimen>
+    <dimen name="icon_button_size">48dp</dimen>
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="menu_item_height">61dp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+</resources>
