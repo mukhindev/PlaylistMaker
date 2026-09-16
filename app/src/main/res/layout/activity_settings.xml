@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
@@ -16,9 +17,10 @@
         android:paddingHorizontal="4dp">
 
         <ImageButton
+            android:id="@+id/back_button"
             android:layout_width="@dimen/icon_button_size"
             android:layout_height="@dimen/icon_button_size"
-            android:layout_marginEnd="@dimen/indent_sm"
+            android:layout_marginEnd="@dimen/spacing_sm"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/back"
             android:src="@drawable/back_24"
@@ -36,12 +38,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/menu_item_height"
-        android:layout_marginTop="@dimen/indent_lg"
+        android:layout_marginTop="@dimen/spacing_lg"
         android:background="@color/background"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/indent_md"
-        android:paddingEnd="@dimen/indent_sx"
+        android:paddingStart="@dimen/spacing_md"
+        android:paddingEnd="@dimen/spacing_sx"
         tools:ignore="UseSwitchCompatOrMaterialXml">
 
         <TextView
@@ -67,8 +69,8 @@
         android:background="@color/background"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/indent_md"
-        android:paddingEnd="@dimen/indent_sm">
+        android:paddingStart="@dimen/spacing_md"
+        android:paddingEnd="@dimen/spacing_sm">
 
         <TextView
             android:layout_width="0dp"
@@ -81,7 +83,7 @@
         <ImageView
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
-            android:layout_marginStart="@dimen/indent_sx"
+            android:layout_marginStart="@dimen/spacing_sx"
             android:src="@drawable/share_24"
             app:tint="@color/outline"
             tools:ignore="ContentDescription" />
@@ -94,8 +96,8 @@
         android:background="@color/background"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/indent_md"
-        android:paddingEnd="@dimen/indent_sm">
+        android:paddingStart="@dimen/spacing_md"
+        android:paddingEnd="@dimen/spacing_sm">
 
         <TextView
             android:layout_width="0dp"
@@ -108,7 +110,7 @@
         <ImageView
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
-            android:layout_marginStart="@dimen/indent_sx"
+            android:layout_marginStart="@dimen/spacing_sx"
             android:src="@drawable/support_24"
             app:tint="@color/outline"
             tools:ignore="ContentDescription" />
@@ -121,8 +123,8 @@
         android:background="@color/background"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/indent_md"
-        android:paddingEnd="@dimen/indent_sm">
+        android:paddingStart="@dimen/spacing_md"
+        android:paddingEnd="@dimen/spacing_sm">
 
         <TextView
             android:layout_width="0dp"
@@ -135,7 +137,7 @@
         <ImageView
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
-            android:layout_marginStart="@dimen/indent_sx"
+            android:layout_marginStart="@dimen/spacing_sx"
             android:src="@drawable/chevron_right_24"
             app:tint="@color/outline"
             tools:ignore="ContentDescription" />
