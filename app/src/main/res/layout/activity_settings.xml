@@ -35,33 +35,18 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <androidx.appcompat.widget.SwitchCompat
         android:layout_width="match_parent"
         android:layout_height="@dimen/menu_item_height"
         android:layout_marginTop="@dimen/spacing_lg"
         android:background="@color/background"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
+        android:checked="true"
+        android:foreground="?attr/selectableItemBackground"
         android:paddingStart="@dimen/spacing_md"
         android:paddingEnd="@dimen/spacing_sx"
-        tools:ignore="UseSwitchCompatOrMaterialXml">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/dark_theme"
-            android:textColor="@color/on_background"
-            android:textSize="@dimen/text_size_body" />
-
-        <Switch
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:height="48dp"
-            android:checked="true"
-            android:switchMinWidth="56dp" />
-
-    </LinearLayout>
+        android:text="@string/dark_theme"
+        android:textColor="@color/on_background"
+        android:textSize="@dimen/text_size_body" />
 
     <LinearLayout
         android:layout_width="match_parent"
